@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     24 de mai de 2017 20:13:42                                                        
+
+   	 TopImóveis v1.0    
+     Sistema de cadastro e aluguel de imóveis
+                   
+     Felipe Santos                                                                
+     ====================================================================== -->
+<project name="TopImóveis v1.0" default="empacotar">
+	
+	<target name="compilar">
+	    <delete dir="bin" />
+	    <mkdir dir="bin" />
+
+	    <javac srcdir="src/main/java" destdir="bin" >
+	      <classpath>
+	        <fileset dir="lib">
+	          <include name="*.jar" />
+	        </fileset>
+	      </classpath>
+	    </javac>
+	  </target>
+	<target name="empacotar" depends="compilar">
+	  <mkdir dir="jar" />
+	  <jar destfile="jar/TopImoveis v1.0.jar" basedir="bin"/>
+	</target>
+	
+	<target name="executar" depends="empacotar">
+	  <java classname="br.com.caelum.argentum.ui.ArgentumUI" fork="true">
+	    <classpath>
+	      <filelist files="jar/TopImoveis v1.0.jar"/>
+	      <fileset dir="lib">
+	        <include name="*.jar" />
+	      </fileset>
+	    </classpath>
+	  </java>
+	</target>
+	
+    <description>
+            Sistema para aluguel e cadastro de imóveis
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="description">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
+
