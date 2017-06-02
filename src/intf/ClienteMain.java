@@ -1,3 +1,9 @@
+/**
+ * Classe Cliente Main - Trata-se da tela com as principais opções dos clientes
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 
 import java.awt.BorderLayout;
@@ -29,15 +35,7 @@ public class ClienteMain extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			ClienteMain dialog = new ClienteMain();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

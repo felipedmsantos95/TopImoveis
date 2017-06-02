@@ -1,3 +1,10 @@
+/**
+ * Classe Tela Renovar - Tela onde é possível alterar a data de fim de contrato de um imóvel alugado 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
 package intf;
 
 import java.awt.BorderLayout;
@@ -39,15 +46,7 @@ public class TelaRenovar extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			TelaRenovar dialog = new TelaRenovar();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

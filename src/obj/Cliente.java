@@ -1,3 +1,10 @@
+/**
+ * Classe Cliente - Representa um cliente na aplicação 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
 package obj;
 
 import java.util.Iterator;

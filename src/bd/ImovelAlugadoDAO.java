@@ -1,9 +1,23 @@
+/**
+ * Classe Imóvel Alugado DAO - Apresenta os métodos relacionados ao comportamento de um imóvel alugado no Banco de Dados 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
 package bd;
 import java.sql.*;
 import obj.*;
 
 public class ImovelAlugadoDAO extends BancoDeDados {
 
+	/**
+	 * Verifica se é verdadeiro se o imóvel está presente na tabela imóvel alugado
+	 * 
+	 * 
+	 * @param idImovel
+	 * @return boolean
+	 */
 	public boolean verificaDisponibilidade(int idImovel)
 	{
 		try

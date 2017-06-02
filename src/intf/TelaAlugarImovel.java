@@ -1,3 +1,9 @@
+/**
+ * Classe Tela Alugar Imóvel - Tela que relaciona cliente com imóvel e realiza o processo de alugar
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 import bd.*;
 import obj.*;
@@ -31,15 +37,7 @@ public class TelaAlugarImovel extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			TelaAlugarImovel dialog = new TelaAlugarImovel();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

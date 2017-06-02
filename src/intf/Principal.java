@@ -1,4 +1,12 @@
+/**
+ * Classe Pricipal - Trata-se da tela com as principais opções da aplicação
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
+
+
 
 import java.awt.EventQueue;
 

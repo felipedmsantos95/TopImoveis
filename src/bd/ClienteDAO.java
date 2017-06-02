@@ -1,3 +1,11 @@
+/**
+ * Classe Cliente DAO - Apresenta os métodos do cliente relacionados ao Banco de Dados 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
+
 package bd;
 import obj.Cliente;
 import java.sql.*;
@@ -165,12 +173,6 @@ public class ClienteDAO extends BancoDeDados {
 		{
 			System.out.println(e.getMessage());
 		}
-	}
-	
-	//Listar custos de cada cliente
-	public static void main(String[] args) {
-		
-		
 	}
 	
 	

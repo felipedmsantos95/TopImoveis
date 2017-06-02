@@ -1,3 +1,10 @@
+/**
+ * Classe Tela Remover Imóvel - Tela que seleciona o ID do imóvel que se deseja remover e o remove do banco, apenas imóveis não alugados são apresentados na comboBox 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
 package intf;
 import bd.*;
 import java.sql.*;
@@ -36,18 +43,8 @@ public class TelaRemoverImovel extends JDialog {
 	private static final long serialVersionUID = 1L;
 	private final JPanel contentPanel = new JPanel();
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		try {
-			TelaRemoverImovel dialog = new TelaRemoverImovel();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
+
 
 	/**
 	 * Create the dialog.

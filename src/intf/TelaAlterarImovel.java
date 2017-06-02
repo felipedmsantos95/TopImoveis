@@ -1,3 +1,9 @@
+/**
+ * Classe Tela Alterar Imóvel - Tela que possibilita alterações nos dados de imóveis cadastrados
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 
 import java.sql.*;
@@ -41,15 +47,7 @@ public class TelaAlterarImovel extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			TelaAlterarImovel dialog = new TelaAlterarImovel();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

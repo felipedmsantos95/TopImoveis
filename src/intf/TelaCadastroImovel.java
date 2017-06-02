@@ -1,3 +1,9 @@
+/**
+ * Classe Tela Cadastro Imóvel - Tela que pega infomações digitadas na interface relacionadas ao imóvel e realiza o cadastro no banco 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 import bd.*;
 import java.util.*;
@@ -37,15 +43,7 @@ public class TelaCadastroImovel extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			TelaCadastroImovel dialog = new TelaCadastroImovel();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

@@ -1,3 +1,9 @@
+/**
+ * Classe Tela Cadastro Cliente - Tela que pega infomações digitadas na interface relacionadas ao cliente e realiza o cadastro no banco 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 import obj.*;
 import bd.*;
@@ -25,18 +31,8 @@ public class TelaCadastroCliente extends JDialog {
 	private final JPanel contentPanel = new JPanel();
 	private JTextField txtNome;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		try {
-			TelaCadastroCliente dialog = new TelaCadastroCliente();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
+
 
 	/**
 	 * Create the dialog.

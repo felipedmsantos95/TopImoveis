@@ -1,3 +1,9 @@
+/**
+ * Classe Tela Remover Cliente - Tela que seleciona o nome do cliente que se deseja remover e o remove do banco se o mesmo não estiver relacionado a algum imóvel 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 import obj.*;
 import bd.*;
@@ -35,16 +41,7 @@ public class TelaRemoverCliente extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			TelaRemoverCliente dialog = new TelaRemoverCliente();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
+	
 	/**
 	 * Create the dialog.
 	 */

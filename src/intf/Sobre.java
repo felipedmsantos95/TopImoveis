@@ -1,3 +1,9 @@
+/**
+ * Classe Sobre - Trata-se da tela com informações sobre a aplicação
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package intf;
 
 import java.awt.BorderLayout;
@@ -24,15 +30,7 @@ public class Sobre extends JDialog {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		try {
-			Sobre dialog = new Sobre();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.

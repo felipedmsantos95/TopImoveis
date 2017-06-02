@@ -1,3 +1,9 @@
+/**
+ * Classe Imóvel - Representa um imóvel na aplicação 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
 package obj;
 import java.util.*;
 
@@ -132,12 +138,7 @@ public class Imovel {
 		else return this.getDataAtual();
 	}
 	
-	//Funcao de verificar se data é maior que outra
 	
-	/*public int dataMaior(String data1, String data2)
-	{
-		
-	}*/
 	
 	
 }

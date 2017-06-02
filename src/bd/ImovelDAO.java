@@ -1,3 +1,10 @@
+/**
+ * Classe Imóvel DAO - Apresenta os métodos do imóvel relacionados ao Banco de Dados 
+ * @author Felipe Santos &lt; felipedmsantos95@gmail.com&gt;
+ * @version 1.0, 2017-06-24
+ */
+
+
 package bd;
 import java.sql.*;
 import java.util.*;
@@ -267,27 +274,8 @@ public class ImovelDAO extends BancoDeDados {
 		}
 	}
 	
-	/*private int getImovelCat(Imovel i) {
-		
-			try
-			{
-				Statement st = conexao.createStatement();
-				ResultSet rs = st.executeQuery("SELECT categoria_id FROM imovel WHERE imovel.id =" + this.getImovelID(i));
-				
-				return rs.getInt(1);
-			}
-			catch(SQLException e)
-			{
-				return 0;
-			}		
-		
-	}*/
+	
 
-	public static void main(String[] args) {
-		
-		
-		
-
-	}
+	
 
 }
